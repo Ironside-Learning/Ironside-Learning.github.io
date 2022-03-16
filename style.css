@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(161, 0, 0), #000);
+}
+
+.button-area {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 320px;
+  
+}
+
+a {
+    background: #999;
+    padding: 20px;
+    font-size: 20px;
+    margin: 1em;
+    color: white;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 3px;
+  }
